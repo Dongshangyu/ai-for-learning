@@ -60,7 +60,7 @@
 
 ## 交接机制：针对长程学习任务的优化机制
 
-长期学习任务通过 `handoff.md` 跨对话接续：每完成流程目录中的一项任务，自动更新存档并明确告知用户；用户也可以随时输入 `/handoff` 手动交接。任务目录统一放在 `C:\Users\19935\Documents\Codex\learning-tasks\<任务名>\`，`handoff.md` 保存最新状态，并在文件开头的提示词中维护交接日期链、保留往期日期。文件开头包含接替提示词、任务目录/日期和交接日期链，下一段对话读取后直接从恢复点继续。
+长期学习任务通过 `handoff.md` 跨对话接续：每完成流程目录中的一项任务，自动更新存档并明确告知用户；用户也可以随时输入 `/handoff` 手动交接。任务目录默认放在 `C:\Users\19935\Documents\Codex\learning-tasks\<任务名>\`，执行前会先确认该路径是否可用，不可用时与用户商讨位置；`handoff.md` 保存最新状态，并在文件开头的提示词中维护交接日期链、保留往期日期。文件开头包含接替提示词、任务目录/日期和交接日期链，下一段对话读取后直接从恢复点继续。
 
 ---
 
@@ -124,4 +124,4 @@ During learning, select the relevant content and type `/mark` to mark it as a di
 
 ## Handoff Mechanism: Optimization for Long-Range Learning Tasks
 
-Long-term learning tasks continue across conversations through `handoff.md`: the checkpoint updates automatically after each completed task and notifies the user; the user can also type `/handoff` to trigger a manual handoff. Task directories live under `C:\Users\19935\Documents\Codex\learning-tasks\<task-name>\`; `handoff.md` holds the latest state, and the takeover prompt keeps a date chain of past handoffs without overwriting earlier dates. The file starts with a takeover prompt including the task directory, date, and handoff date chain, so the next conversation can resume directly from the recovery point.
+Long-term learning tasks continue across conversations through `handoff.md`: the checkpoint updates automatically after each completed task and notifies the user; the user can also type `/handoff` to trigger a manual handoff. The default task directory is `C:\Users\19935\Documents\Codex\learning-tasks\<task-name>\`; before creating it, confirm the path is usable and discuss the location with the user when it is not. `handoff.md` holds the latest state, and the takeover prompt keeps a date chain of past handoffs without overwriting earlier dates. The file starts with a takeover prompt including the task directory, date, and handoff date chain, so the next conversation can resume directly from the recovery point.
