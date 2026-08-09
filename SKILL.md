@@ -13,6 +13,7 @@ description: 'Meta-Learning Method (Scientific TeachingFlow): structured step-by
 2. 生成流程目录：按 道 → 术 → 器 规划路径，但只向用户呈现简洁的流程目录，不暴露“道 / 术 / 器”等内部设计标签；显式发给用户确认后再开始教学。详见 [references/planning.md](references/planning.md)。
 3. 逐部分教学：确认目录后按顺序推进，每部分执行“讲解 → 消化 → 检验 → 确认 → 小结”。详见 [references/teaching-loop.md](references/teaching-loop.md)。
 4. 模块内讲解：代码、公式、作业等按对应模块规则执行，见下方导航。
+5. 长期任务存档：学习任务跨多个对话时，按 [references/handoff-mechanism.md](references/handoff-mechanism.md) 维护 `handoff.md`；每完成一项任务自动更新，用户输入 `/handoff` 时手动更新。
 
 ## 模块导航
 
@@ -27,3 +28,4 @@ description: 'Meta-Learning Method (Scientific TeachingFlow): structured step-by
 | 拆解、分析、读论文文献 | [references/paper-analysis.md](references/paper-analysis.md) |
 | 课程 / 作业 / 项目协作 | [references/homework-collaboration.md](references/homework-collaboration.md) |
 | 会话节奏与反馈调整 | [references/session-pacing.md](references/session-pacing.md) |
+| 长期任务交接 / 学习存档 | [references/handoff-mechanism.md](references/handoff-mechanism.md) |
