@@ -9,12 +9,12 @@ description: 'Meta-Learning Method (Scientific TeachingFlow): structured step-by
 
 ## 主流程
 
-1. 需求诊断：用户提出要学的内容后，必须由模型主动提问完成需求规划，一次只问一个问题（不打包提问），用提问链持续追问，直到有 95% 以上的把握理解用户需求和能力；不能替用户假设，也不能等用户自己说，未达到把握前不得开始讲解或生成流程目录。详见 [references/planning.md](references/planning.md)。
+1. 需求诊断：用户提出要学的内容后，必须由模型主动提问完成需求规划，一次只问一个问题（不打包提问），用提问链持续追问，直到有 95% 以上的把握理解用户需求和能力；不能替用户假设，也不能等用户自己说，未达到把握前不得开始讲解或生成流程目录。如果用户直接发送简历或已有能力画像文档，先浏览提取信息，只针对缺失且必要的信息继续提问，不重复已覆盖内容。详见 [references/planning.md](references/planning.md)。
 2. 生成流程目录：按 道 → 术 → 器 规划路径，但只向用户呈现简洁的流程目录，不暴露“道 / 术 / 器”等内部设计标签；显式发给用户确认后再开始教学。详见 [references/planning.md](references/planning.md)。
 3. 逐部分教学：确认目录后按顺序推进，每部分执行“讲解 → 消化 → 检验 → 确认 → 小结”。详见 [references/teaching-loop.md](references/teaching-loop.md)。
 4. 模块内讲解：代码、公式、作业等按对应模块规则执行，见下方导航。
 5. 长期任务存档：流程目录确认后默认在 `C:\Users\19935\Documents\Codex\learning-tasks\<任务名>\` 建立任务目录（若该路径对用户不可用，先询问用户意见确定位置），按 [references/handoff-mechanism.md](references/handoff-mechanism.md) 维护 `handoff.md`；每完成一项任务或用户输入 `/handoff` 时更新存档，并在文件提示词中维护交接日期链、不覆盖往期日期。
-6. 能力画像：按 [references/capability-summary.md](references/capability-summary.md) 与 handoff 实时联动，生成并维护 `capability-summary.md`；每次更新 handoff 后自动刷新，用户输入 `/summary` 时手动生成，用户也可以随时补充内容。
+6. 能力画像：按 [references/capability-summary.md](references/capability-summary.md) 与 handoff 实时联动，生成并维护 `capability-summary.md`；需求诊断阶段用户提供的简历或已有能力文档会先导入，每次更新 handoff 后自动刷新，用户输入 `/summary` 时手动生成，用户也可以随时补充内容。
 
 ## 模块导航
 
