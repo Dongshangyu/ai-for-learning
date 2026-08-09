@@ -47,7 +47,7 @@
 | explanation-guidelines.md | 概念、术语、缩写、实例规范 |
 | code-explanation.md | 代码块拆分与逐句讲解 |
 | math-explanation.md | 公式与数学推导讲解 |
-| paper-analysis.md | 论文文献拆解与分析 |
+| paper-analysis.md | 论文检索、拆解与分析 |
 | homework-collaboration.md | 课程与作业协作 |
 | session-pacing.md | 会话节奏与反馈调整 |
 | handoff-mechanism.md | 长期任务交接与学习存档 |
@@ -66,6 +66,10 @@
 ## 能力画像：一键式生成简历式学习成果沉淀文档
 
 能力画像与交接机制实时联动：每次更新 `handoff.md` 时同步刷新 `capability-summary.md`；用户也可以输入 `/summary` 手动生成。文档与 `handoff.md` 放在同一任务目录，按简历式结构沉淀技术栈、知识范围和项目成果，用户还可以随时补充内容。
+
+## 论文拆解
+
+发送论文链接或 PDF，或输入 `/paper <url|路径>` 开始拆解；输入 `/paper-search <关键词>` 可以检索相关论文。支持快速、完整、深挖三种阅读模式，拆解结果保存在任务目录的 `papers\` 下，并与 `handoff.md`、能力画像和 `/mark` 难点机制联动。
 
 ---
 
@@ -116,7 +120,7 @@ By seeing the full path before starting, the learner can place every knowledge p
 | explanation-guidelines.md | Concepts, terms, abbreviations, and examples |
 | code-explanation.md | Code block splitting and line-by-line explanation |
 | math-explanation.md | Formula and mathematical derivation guidance |
-| paper-analysis.md | Paper and literature deconstruction |
+| paper-analysis.md | Paper search, deconstruction, and analysis |
 | homework-collaboration.md | Course, assignment, and project collaboration |
 | session-pacing.md | Pacing and feedback adjustment |
 | handoff-mechanism.md | Long-term task handoff and learning checkpoint |
@@ -135,3 +139,7 @@ Long-term learning tasks continue across conversations through `handoff.md`: the
 ## Capability Profile: One-Click Resume-Style Learning Outcome Summary
 
 The capability profile stays in sync with the handoff mechanism: it refreshes whenever `handoff.md` is updated, and the user can also generate it manually with `/summary`. It lives in the same task directory as `handoff.md` and accumulates tech stack, knowledge scope, and project outcomes in a resume-style structure; users can add their own notes at any time.
+
+## Paper Deconstruction
+
+Send a paper link or PDF, or type `/paper <url|path>` to start deconstruction; type `/paper-search <keywords>` to search for related papers. Three reading modes are available: quick, full, and deep. Results are saved under `papers\` in the task directory and stay linked with `handoff.md`, the capability profile, and the `/mark` difficulty mechanism.
