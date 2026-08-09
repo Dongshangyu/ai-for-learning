@@ -32,17 +32,18 @@
 
 1. 需求诊断：用提问链先问清学习目的和当前水平，直到有 90% 以上把握确定终点和起点
 2. 生成流程目录：按 道 → 术 → 器 定制路径，显式发给学习者确认
-3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 确认
+3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 小结 → 确认
 4. 提问检验：一次一问，1-6 个问题，直到有 90% 以上把握确认彻底理解
-5. 收尾确认：反问是否还有疑问，并提供 3 个左右的延伸例子/问题供选择
-6. 确认后继续下一部分
+5. 阶段性小结：完成一个模块后，先让用户用自己的话复述核心逻辑，模型再做补充总结
+6. 收尾确认：反问是否还有疑问，并提供 3 个左右的延伸例子/问题供选择
+7. 确认后继续下一部分
 
 ## 模块结构
 
 | 模块 | 作用 |
 | --- | --- |
 | planning.md | 需求诊断、流程目录生成与确认 |
-| teaching-loop.md | 讲解、消化、提问、推进 |
+| teaching-loop.md | 讲解、消化、提问、小结、推进 |
 | explanation-guidelines.md | 概念、术语、缩写、实例规范 |
 | code-explanation.md | 代码块拆分与逐句讲解 |
 | math-explanation.md | 公式与数学推导讲解 |
@@ -90,17 +91,18 @@ By seeing the full path before starting, the learner can place every knowledge p
 
 1. Diagnosis: use a questioning chain to ask about the learning goal and current level until there is 90%+ confidence in the destination and the starting point
 2. Plan: build a 道 → 术 → 器 learning path and explicitly ask the learner to confirm it
-3. Progress: each part follows explain → digest → check → confirm
+3. Progress: each part follows explain → digest → check → summarize → confirm
 4. Questioning: one question at a time, 1-6 questions total, until confidence is above 90%
-5. Close-out: ask whether the learner has other questions and offer about 3 follow-up examples or questions
-6. Continue only after the learner confirms
+5. Staged summary: after completing a module, ask the learner to restate the core logic, then the model adds a structured summary
+6. Close-out: ask whether the learner has other questions and offer about 3 follow-up examples or questions
+7. Continue only after the learner confirms
 
 ## Module Structure
 
 | Module | Purpose |
 | --- | --- |
 | planning.md | Diagnosis, flow catalog generation, and confirmation |
-| teaching-loop.md | Explain, digest, question, and progression rules |
+| teaching-loop.md | Explain, digest, question, summarize, and progression rules |
 | explanation-guidelines.md | Concepts, terms, abbreviations, and examples |
 | code-explanation.md | Code block splitting and line-by-line explanation |
 | math-explanation.md | Formula and mathematical derivation guidance |
