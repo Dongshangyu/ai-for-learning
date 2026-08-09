@@ -11,7 +11,7 @@ description: 'Meta-Learning Method (Scientific TeachingFlow): structured step-by
 
 1. 需求诊断：用户提出要学的内容后，必须由模型主动提问完成需求规划，一次只问一个问题，用提问链持续追问，直到有 90% 以上的把握理解用户需求和能力；不能替用户假设，也不能等用户自己说，未达到把握前不得开始讲解或生成流程目录。详见 [references/planning.md](references/planning.md)。
 2. 生成流程目录：按 道 → 术 → 器 规划路径，但只向用户呈现简洁的流程目录，不暴露“道 / 术 / 器”等内部设计标签；显式发给用户确认后再开始教学。详见 [references/planning.md](references/planning.md)。
-3. 逐部分教学：确认目录后按顺序推进，每部分执行“讲解 → 消化 → 检验 → 小结 → 确认”。详见 [references/teaching-loop.md](references/teaching-loop.md)。
+3. 逐部分教学：确认目录后按顺序推进，每部分执行“讲解 → 消化 → 检验 → 确认 → 小结”。详见 [references/teaching-loop.md](references/teaching-loop.md)。
 4. 模块内讲解：代码、公式、作业等按对应模块规则执行，见下方导航。
 
 ## 模块导航
