@@ -51,6 +51,7 @@
 | homework-collaboration.md | 课程与作业协作 |
 | session-pacing.md | 会话节奏与反馈调整 |
 | handoff-mechanism.md | 长期任务交接与学习存档 |
+| capability-summary.md | 能力画像：简历式学习成果沉淀 |
 
 ## 使用方式
 
@@ -61,6 +62,10 @@
 ## 交接机制：针对长程学习任务的优化机制
 
 长期学习任务通过 `handoff.md` 跨对话接续：每完成流程目录中的一项任务，自动更新存档并明确告知用户；用户也可以随时输入 `/handoff` 手动交接。任务目录默认放在 `C:\Users\19935\Documents\Codex\learning-tasks\<任务名>\`，执行前会先确认该路径是否可用，不可用时与用户商讨位置；`handoff.md` 保存最新状态，并在文件开头的提示词中维护交接日期链、保留往期日期。文件开头包含接替提示词、任务目录/日期和交接日期链，下一段对话读取后直接从恢复点继续。
+
+## 能力画像：一键式生成简历式学习成果沉淀文档
+
+能力画像与交接机制实时联动：每次更新 `handoff.md` 时同步刷新 `capability-summary.md`；用户也可以输入 `/summary` 手动生成。文档与 `handoff.md` 放在同一任务目录，按简历式结构沉淀技术栈、知识范围和项目成果，用户还可以随时补充内容。
 
 ---
 
@@ -115,6 +120,7 @@ By seeing the full path before starting, the learner can place every knowledge p
 | homework-collaboration.md | Course, assignment, and project collaboration |
 | session-pacing.md | Pacing and feedback adjustment |
 | handoff-mechanism.md | Long-term task handoff and learning checkpoint |
+| capability-summary.md | Capability profile: resume-style learning outcome summary |
 
 ## Usage
 
@@ -125,3 +131,7 @@ During learning, select the relevant content and type `/mark` to mark it as a di
 ## Handoff Mechanism: Optimization for Long-Range Learning Tasks
 
 Long-term learning tasks continue across conversations through `handoff.md`: the checkpoint updates automatically after each completed task and notifies the user; the user can also type `/handoff` to trigger a manual handoff. The default task directory is `C:\Users\19935\Documents\Codex\learning-tasks\<task-name>\`; before creating it, confirm the path is usable and discuss the location with the user when it is not. `handoff.md` holds the latest state, and the takeover prompt keeps a date chain of past handoffs without overwriting earlier dates. The file starts with a takeover prompt including the task directory, date, and handoff date chain, so the next conversation can resume directly from the recovery point.
+
+## Capability Profile: One-Click Resume-Style Learning Outcome Summary
+
+The capability profile stays in sync with the handoff mechanism: it refreshes whenever `handoff.md` is updated, and the user can also generate it manually with `/summary`. It lives in the same task directory as `handoff.md` and accumulates tech stack, knowledge scope, and project outcomes in a resume-style structure; users can add their own notes at any time.
