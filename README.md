@@ -32,10 +32,10 @@
 
 1. 需求诊断：用提问链先问清学习目的和当前水平，直到有 90% 以上把握确定终点和起点
 2. 生成流程目录：按 道 → 术 → 器 定制路径，显式发给学习者确认
-3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 小结 → 确认
+3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 确认 → 小结
 4. 提问检验：一次一问，1-6 个问题，直到有 90% 以上把握确认彻底理解
-5. 阶段性小结：完成一个模块后，先让用户用自己的话复述核心逻辑，模型再做补充总结
-6. 收尾确认：反问是否还有疑问，并提供 3 个左右的延伸例子/问题供选择
+5. 收尾确认：反问是否还有疑问，并提供 3 个左右的延伸例子/问题供选择
+6. 阶段性小结：全部疑问确认解决后，让用户用自己的话复述核心逻辑，模型再做补充总结
 7. 确认后继续下一部分
 
 ## 模块结构
@@ -91,10 +91,10 @@ By seeing the full path before starting, the learner can place every knowledge p
 
 1. Diagnosis: use a questioning chain to ask about the learning goal and current level until there is 90%+ confidence in the destination and the starting point
 2. Plan: build a 道 → 术 → 器 learning path and explicitly ask the learner to confirm it
-3. Progress: each part follows explain → digest → check → summarize → confirm
+3. Progress: each part follows explain → digest → check → confirm → summarize
 4. Questioning: one question at a time, 1-6 questions total, until confidence is above 90%
-5. Staged summary: after completing a module, ask the learner to restate the core logic, then the model adds a structured summary
-6. Close-out: ask whether the learner has other questions and offer about 3 follow-up examples or questions
+5. Close-out: ask whether the learner has other questions and offer about 3 follow-up examples or questions
+6. Staged summary: after all questions are resolved, ask the learner to restate the core logic, then the model adds a structured summary
 7. Continue only after the learner confirms
 
 ## Module Structure
