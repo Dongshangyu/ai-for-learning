@@ -65,7 +65,7 @@
 
 ## 能力画像：一键生成简历式学习成果沉淀文档
 
-能力画像与交接机制实时联动：每次更新 `handoff.md` 时同步刷新 `capability-summary.md`；用户也可以输入 `/summary` 手动生成。需求诊断时用户发送的简历或已有能力文档会被导入，模型只补问缺口并更新文档。文档与 `handoff.md` 放在同一任务目录，按简历式结构沉淀技术栈、知识范围和项目成果，用户还可以随时补充内容。
+能力画像与交接机制实时联动：每次更新 `handoff.md` 时同步刷新 `capability-summary.md`；用户也可以输入 `/summary` 手动生成。需求诊断时用户发送的简历或已有能力文档会被导入，模型只补问缺口并更新文档。文档与 `handoff.md` 放在同一任务目录，按简历式结构沉淀技术栈、知识范围和项目成果，其中项目描述会按完整简历叙事撰写，覆盖技术栈、实现细节、结果指标与口径，而不是简单一行；用户还可以随时补充内容。
 
 ## 论文拆解
 
@@ -138,7 +138,7 @@ Long-term learning tasks continue across conversations through `handoff.md`: the
 
 ## Capability Profile: One-Click Resume-Style Learning Outcome Summary
 
-The capability profile stays in sync with the handoff mechanism: it refreshes whenever `handoff.md` is updated, and the user can also generate it manually with `/summary`. A resume or existing capability document sent during diagnosis is imported first, and the model only asks for missing gaps before updating the document. It lives in the same task directory as `handoff.md` and accumulates tech stack, knowledge scope, and project outcomes in a resume-style structure; users can add their own notes at any time.
+The capability profile stays in sync with the handoff mechanism: it refreshes whenever `handoff.md` is updated, and the user can also generate it manually with `/summary`. A resume or existing capability document sent during diagnosis is imported first, and the model only asks for missing gaps before updating the document. It lives in the same task directory as `handoff.md` and accumulates tech stack, knowledge scope, and project outcomes in a resume-style structure, with project entries written as complete narratives covering tech stack, implementation details, results, and metrics caveats rather than one-liners; users can add their own notes at any time.
 
 ## Paper Deconstruction
 
