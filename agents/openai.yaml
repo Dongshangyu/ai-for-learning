@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meta-Learning Method (Scientific TeachingFlow)"
+  short_description: "Diagnose goals, plan a path, then teach step by step"
+  default_prompt: "Use $meta-learning-method to diagnose my learning goal and level, plan the 道术器 path, then teach step by step."
