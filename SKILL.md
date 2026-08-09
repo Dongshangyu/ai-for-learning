@@ -26,7 +26,7 @@ description: 'Meta-Learning Method (Scientific TeachingFlow): structured step-by
 | 概念、术语、缩写、实例 | [references/explanation-guidelines.md](references/explanation-guidelines.md) |
 | 讲代码 | [references/code-explanation.md](references/code-explanation.md) |
 | 讲公式 / 数学推导 | [references/math-explanation.md](references/math-explanation.md) |
-| 拆解、分析、读论文文献 | [references/paper-analysis.md](references/paper-analysis.md) |
+| 论文检索 / 拆解 / 分析 | [references/paper-analysis.md](references/paper-analysis.md) |
 | 课程 / 作业 / 项目协作 | [references/homework-collaboration.md](references/homework-collaboration.md) |
 | 会话节奏与反馈调整 | [references/session-pacing.md](references/session-pacing.md) |
 | 长期任务交接 / 学习存档 | [references/handoff-mechanism.md](references/handoff-mechanism.md) |
