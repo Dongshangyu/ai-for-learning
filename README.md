@@ -50,12 +50,17 @@
 | paper-analysis.md | 论文文献拆解与分析 |
 | homework-collaboration.md | 课程与作业协作 |
 | session-pacing.md | 会话节奏与反馈调整 |
+| handoff-mechanism.md | 长期任务交接与学习存档 |
 
 ## 使用方式
 
 只要说“教我”、“我要学”、“想学”，或者要求解释代码、读论文、做作业，skill 会自动激活；也可以显式说“用 $meta-learning-method 教我”，直接进入完整流程。
 
 学习过程中，选择对应内容并输入 `/mark`，可以把它标记为难点，后续会优先回顾。
+
+## 交接机制
+
+长期学习任务通过 `handoff.md` 跨对话接续：每完成流程目录中的一项任务，自动更新存档并明确告知用户；用户也可以随时输入 `/handoff` 手动交接。文件保存在当前对话的 `outputs` 目录，开头包含接替提示词和当前目录/日期，下一段对话读取后直接从恢复点继续。
 
 ---
 
@@ -109,9 +114,14 @@ By seeing the full path before starting, the learner can place every knowledge p
 | paper-analysis.md | Paper and literature deconstruction |
 | homework-collaboration.md | Course, assignment, and project collaboration |
 | session-pacing.md | Pacing and feedback adjustment |
+| handoff-mechanism.md | Long-term task handoff and learning checkpoint |
 
 ## Usage
 
 Say "教我", "我要学", "想学", or ask to explain code, read papers, or work on assignments, and the skill activates automatically. You can also explicitly invoke it with "Use $meta-learning-method to teach me" to enter the full flow directly.
 
 During learning, select the relevant content and type `/mark` to mark it as a difficult point for later review.
+
+## Handoff Mechanism
+
+Long-term learning tasks continue across conversations through `handoff.md`: the checkpoint updates automatically after each completed task and notifies the user; the user can also type `/handoff` to trigger a manual handoff. The file is saved in the current conversation's `outputs` directory and starts with a takeover prompt including the current directory and date, so the next conversation can resume directly from the recovery point.
