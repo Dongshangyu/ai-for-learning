@@ -30,7 +30,7 @@
 
 ## 教学主流程
 
-1. 需求诊断：用户可直接发送简历或已有能力画像文档，模型先浏览提取，再只针对缺失且必要的信息提问，不打包提问，直到有 95% 以上把握确定终点和起点
+1. 需求诊断（两种模式）：默认提问链模式从基本画像开始一次一问，持续追问到 95% 以上把握；文档导入模式下，用户发送简历或已有能力画像文档，模型先浏览提取，再只补问缺失且必要的信息
 2. 生成流程目录：按 道 → 术 → 器 定制完整技术节点路径，包含中间动手实践和论文阅读，显式发给学习者确认
 3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 确认 → 小结
 4. 提问检验：一次一问，1-6 个问题，直到有 95% 以上把握确认彻底理解
@@ -103,7 +103,7 @@ By seeing the full path before starting, the learner can place every knowledge p
 
 ## Core Teaching Flow
 
-1. Diagnosis: the learner can send a resume or an existing capability profile; the model reviews it first, then asks only for missing task-relevant information one question at a time without bundling, until there is 95%+ confidence in the destination and the starting point
+1. Diagnosis (two modes): the default questioning-chain mode starts with the basic profile and asks one question at a time until 95%+ confidence; in document-import mode, the learner sends a resume or existing capability profile, the model reviews it first, then asks only for missing task-relevant information
 2. Plan: build a 道 → 术 → 器 path with complete technical nodes, mid-course practice, and paper reading, and explicitly ask the learner to confirm it
 3. Progress: each part follows explain → digest → check → confirm → summarize
 4. Questioning: one question at a time, 1-6 questions total, until confidence is above 95%
