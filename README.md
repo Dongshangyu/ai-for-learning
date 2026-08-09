@@ -30,7 +30,7 @@
 
 ## 教学主流程
 
-1. 需求诊断：先问清学习目的和当前水平，确定终点和起点
+1. 需求诊断：用提问链先问清学习目的和当前水平，直到有 90% 以上把握确定终点和起点
 2. 生成流程目录：按 道 → 术 → 器 定制路径，显式发给学习者确认
 3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 确认
 4. 提问检验：一次一问，1-6 个问题，直到有 90% 以上把握确认彻底理解
@@ -88,7 +88,7 @@ By seeing the full path before starting, the learner can place every knowledge p
 
 ## Core Teaching Flow
 
-1. Diagnosis: ask about the learning goal and current level to determine the destination and the starting point
+1. Diagnosis: use a questioning chain to ask about the learning goal and current level until there is 90%+ confidence in the destination and the starting point
 2. Plan: build a 道 → 术 → 器 learning path and explicitly ask the learner to confirm it
 3. Progress: each part follows explain → digest → check → confirm
 4. Questioning: one question at a time, 1-6 questions total, until confidence is above 90%
