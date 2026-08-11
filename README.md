@@ -2,13 +2,13 @@
 
 ## 这个 skill 做什么
 
-AI-For-Learning 是一套 AI 引导的学习方法：先了解你的目标与水平，再规划一条完整、清晰的学习路径；讲解时从背景讲起，逐步进入原理，最后通过提问、复述和动手实践确认你真的学会。
+AI-For-Learning 是一套 AI 引导的元学习方法，以「背景与目标 → 原理与方法 → 实践与产出」为骨架：先了解你的目标与水平，再规划一条完整、清晰的学习路径；讲解时从背景讲起，逐步进入原理，最后通过提问、复述和动手实践确认你真的学会。
 
 它不依赖一次性提示词的“运气”，而是用固定流程保证每一段学习都可检查、可复现、可沉淀。
 
-## 学习如何学习
+## 元学习：学习如何学习
 
-这个 skill 不是把知识直接灌给学习者，而是帮助学习者学习“如何学习”。
+这个 skill 的核心是元学习（Meta-Learning）：不是把知识直接灌给学习者，而是帮助学习者学习“如何学习”。
 
 它通过苏格拉底式提问链，让费曼学习法自然发生：学习者必须用自己的话解释刚学到的内容，在解释中发现漏洞，再带着漏洞回到材料里重新理解。提问不是考核，而是让理解外显、让盲区现形的手段。
 
@@ -16,7 +16,7 @@ AI-For-Learning 是一套 AI 引导的学习方法：先了解你的目标与水
 
 ## 学习路径：从理解到实践
 
-学习按三个阶段推进，层层递进：
+整个学习路径以「背景与目标 → 原理与方法 → 实践与产出」为骨架，按三个阶段推进，层层递进：
 
 1. 背景与目标：先理解这个领域为什么存在、解决什么问题、在整个知识版图中的位置，以及学完能做什么。
 2. 原理与方法：再掌握核心概念和机制，理解不同方法之间的区别、适用边界，学会在什么场景选什么方法。
@@ -81,11 +81,11 @@ AI-For-Learning 是一套 AI 引导的学习方法：先了解你的目标与水
 
 ## What This Skill Does
 
-AI-For-Learning is an AI-guided learning method. It first identifies the learner's goals and current level, then plans a complete and clear learning path. Teaching starts with background, moves into principles, and ends with questions, self-explanation, and hands-on practice.
+AI-For-Learning is an AI-guided meta-learning method built on the skeleton "Background and goals → Principles and methods → Practice and outcomes." It first identifies the learner's goals and current level, then plans a complete and clear learning path. Teaching starts with background, moves into principles, and ends with questions, self-explanation, and hands-on practice.
 
-## Learning How to Learn
+## Meta-Learning: Learning How to Learn
 
-This skill does not simply feed knowledge to the learner. It helps the learner learn how to learn.
+At its core, this skill is about meta-learning: it does not simply feed knowledge to the learner. It helps the learner learn how to learn.
 
 It uses a Socratic questioning chain to make the Feynman technique happen naturally: the learner explains newly learned content in their own words, discovers gaps during the explanation, and returns to the material with those gaps in mind. Questions are not exams; they make understanding visible and blind spots explicit.
 
@@ -93,7 +93,7 @@ Once the learner masters "how to learn," switching to a new field only changes t
 
 ## Learning Path: From Understanding to Practice
 
-Learning follows three stages:
+The whole learning path is built on the skeleton "Background and goals → Principles and methods → Practice and outcomes," and follows three stages:
 
 1. Background and goals: understand why a field exists, what problem it solves, where it fits, and what the learner will be able to do.
 2. Principles and methods: learn the core concepts and mechanisms, compare methods and their trade-offs, and know how to choose.
