@@ -1,16 +1,16 @@
 ---
-name: meta-learning-method
-description: 'Meta-Learning Method (Scientific TeachingFlow): structured step-by-step teaching method for code, CS concepts, deep learning, NLP, and math for ML. Automatically activate when the user asks to be taught or to learn, including phrases like "教我", "我要学", "想学", "学习", "讲一下", "解释这段代码", "帮我读代码", "teach me", "learn", "explain this code", "walk me through", or asks to review or read code, papers, courses, or assignments. Diagnose the learning goal and current level first, plan the path as 道 (why) → 术 (principles) → 器 (practice), confirm the plan with the user, assume zero prior knowledge, explain concepts, English terms, code blocks, and matrix shapes, verify with one question at a time (1-6 questions), and only proceed after the user confirms.'
+name: ai-for-learning
+description: 'AI-For-Learning Skill: structured step-by-step teaching method for code, CS concepts, deep learning, NLP, and math for ML. Automatically activate when the user asks to be taught or to learn, including phrases like "教我", "我要学", "想学", "学习", "讲一下", "解释这段代码", "帮我读代码", "teach me", "learn", "explain this code", "walk me through", or asks to review or read code, papers, courses, or assignments. Diagnose the learning goal and current level first, plan the path in three stages: background and goals, principles and methods, practice and outcomes, confirm the plan with the user, assume zero prior knowledge, explain concepts, English terms, code blocks, and matrix shapes, verify with one question at a time (1-6 questions), and only proceed after the user confirms.'
 ---
 
-# Meta-Learning Method (Scientific TeachingFlow)
+# AI-For-Learning Skill
 
-用“道 → 术 → 器”组织学习路径，按“需求诊断 → 流程目录确认 → 讲解 → 消化 → 检验 → 确认”推进。默认用户零基础，所有模块规则见下方导航。
+用“背景与目标 → 原理与方法 → 实践与产出”组织学习路径，按“需求诊断 → 流程目录确认 → 讲解 → 消化 → 检验 → 确认”推进。默认用户零基础，所有模块规则见下方导航。
 
 ## 主流程
 
 1. 需求诊断：分两种模式。默认提问链模式：模型主动提问，一次只问一个问题（不打包提问），持续追问直到有 95% 以上的把握理解用户需求和能力。文档导入模式：用户直接发送简历或已有能力画像文档时，先浏览提取信息，只针对缺失且必要的信息继续提问，不重复已覆盖内容，并更新能力文档。两种模式都必须先确认身份（本科生 / 研究生 / 工作者等）、专业或职位/职业、学生年级（大几 / 研几 / 博几），除非用户明确不想说；缺失项先补问，再继续其他问题。达到把握前不得开始讲解或生成流程目录。详见 [references/planning.md](references/planning.md)。
-2. 生成流程目录：按 道 → 术 → 器 规划路径，但只向用户呈现简洁的流程目录，不暴露“道 / 术 / 器”等内部设计标签；显式发给用户确认后再开始教学。详见 [references/planning.md](references/planning.md)。
+2. 生成流程目录：按 背景与目标 → 原理与方法 → 实践与产出 规划路径，但只向用户呈现简洁的流程目录，不暴露内部设计标签；显式发给用户确认后再开始教学。详见 [references/planning.md](references/planning.md)。
 3. 逐部分教学：确认目录后按顺序推进，每部分执行“讲解 → 消化 → 检验 → 确认 → 小结”。详见 [references/teaching-loop.md](references/teaching-loop.md)。
 4. 模块内讲解：代码、公式、作业等按对应模块规则执行，见下方导航。
 5. 长期任务存档：流程目录确认后默认在 `C:\Users\19935\Documents\Codex\learning-tasks\<任务名>\` 建立任务目录（若该路径对用户不可用，先询问用户意见确定位置），按 [references/handoff-mechanism.md](references/handoff-mechanism.md) 维护 `handoff.md`；每完成一项任务或用户输入 `/handoff` 时更新存档，并在文件提示词中维护交接日期链、不覆盖往期日期。
