@@ -1,24 +1,28 @@
-# Meta-Learning Method (Scientific TeachingFlow)
+# AI-For-Learning Skill
 
-## 元学习：学习如何学习
+## 这个 skill 做什么
 
-这个 skill 不是把知识直接灌给学习者，而是帮助学习者学习“如何学习”，也就是元学习。
+AI-For-Learning 是一套 AI 引导的学习方法：先了解你的目标与水平，再规划一条完整、清晰的学习路径；讲解时从背景讲起，逐步进入原理，最后通过提问、复述和动手实践确认你真的学会。
 
-它通过苏格拉底式提问链，把费曼学习法变成一套被动发生的流程：学习者必须用自己的话解释刚学到的内容，在解释中发现漏洞，再带着漏洞回到材料里重新理解。提问不是考核，而是让理解外显、让盲区现形的手段。
+它不依赖一次性提示词的“运气”，而是用固定流程保证每一段学习都可检查、可复现、可沉淀。
 
-当学习者掌握了“如何学习”之后，换一个领域只是换了知识外壳，底层的学习方法依然可以迁移。
+## 学习如何学习
 
-## 设计理念：道 → 术 → 器
+这个 skill 不是把知识直接灌给学习者，而是帮助学习者学习“如何学习”。
 
-一个完整的学习系统，需要同时回答三个层面的问题：为什么、怎么做、用什么落地。
+它通过苏格拉底式提问链，让费曼学习法自然发生：学习者必须用自己的话解释刚学到的内容，在解释中发现漏洞，再带着漏洞回到材料里重新理解。提问不是考核，而是让理解外显、让盲区现形的手段。
 
-道，回答的是动机与位置。 学习者需要先理解一个领域为什么存在、它解决了什么根本问题、在整个知识版图中处于什么位置。没有这个层面的认知，后续的所有细节都是悬浮的，学到的只是孤立的技术片段，而非一套可迁移的思维框架。
+掌握了“如何学习”之后，换一个领域只是换了知识外壳，底层的学习方法依然可以迁移。
 
-术，回答的是原理与选择。 在理解了“为什么”之后，学习者需要进入核心机制的博弈层——理解不同方法之间的本质差异、各自的适用边界、以及它们之间的演化逻辑。这个阶段的目标不是记住所有细节，而是建立判断力：在什么场景下选择什么路径。
+## 学习路径：从理解到实践
 
-器，回答的是落地与实践。 一切认知最终需要被压缩进可执行的行动中。这个层面不追求宏大，追求具体：跑通一个最小可行案例，亲手触碰一次完整流程，把前两个层面的理解转化为身体记忆。只有到了这一步，才算真正完成了一个领域的认知闭环。
+学习按三个阶段推进，层层递进：
 
-道让你不迷路，术让你不肤浅，器让你不悬浮。三者层层递进，缺一不可。一个好的学习系统，应当引导学习者自然地沿着这条路径前进，而不是只停留在某一个层面。
+1. 背景与目标：先理解这个领域为什么存在、解决什么问题、在整个知识版图中的位置，以及学完能做什么。
+2. 原理与方法：再掌握核心概念和机制，理解不同方法之间的区别、适用边界，学会在什么场景选什么方法。
+3. 实践与产出：最后跑通最小可行案例，完成一个完整项目或实验，把理解变成实际能力和可展示的成果。
+
+先知道为什么，再理解怎么做，最后动手做出来。
 
 ---
 
@@ -31,7 +35,7 @@
 ## 教学主流程
 
 1. 需求诊断（两种模式）：默认提问链模式从基本画像开始一次一问，持续追问到 95% 以上把握；文档导入模式下，用户发送简历或已有能力画像文档，模型先浏览提取，再只补问缺失且必要的信息。两种模式都必须先确认身份、专业或职位/职业、学生年级（大几/研几/博几），除非用户明确不想说
-2. 生成流程目录：按 道 → 术 → 器 定制完整技术节点路径，包含中间动手实践和论文阅读，显式发给学习者确认
+2. 生成流程目录：按 背景与目标 → 原理与方法 → 实践与产出 定制完整技术节点路径，包含中间动手实践和论文阅读，显式发给学习者确认
 3. 逐层推进：每部分都遵循 讲解 → 消化 → 检验 → 确认 → 小结
 4. 提问检验：一次一问，1-6 个问题，直到有 95% 以上把握确认彻底理解
 5. 收尾确认：反问是否还有疑问，并提供 3 个左右的延伸例子/问题供选择
@@ -55,7 +59,7 @@
 
 ## 使用方式
 
-只要说“教我”、“我要学”、“想学”，或者要求解释代码、读论文、做作业，skill 会自动激活；也可以显式说“用 $meta-learning-method 教我”，直接进入完整流程。
+只要说“教我”、“我要学”、“想学”，或者要求解释代码、读论文、做作业，skill 会自动激活；也可以显式说“用 $ai-for-learning 教我”，直接进入完整流程。
 
 学习过程中，选择对应内容并输入 `/mark`，可以把它标记为难点，后续会优先回顾。
 
@@ -73,27 +77,31 @@
 
 ---
 
-# Meta-Learning Method (Scientific TeachingFlow)
+# AI-For-Learning Skill
 
-## Meta-Learning: Learning How to Learn
+## What This Skill Does
 
-This skill does not simply feed knowledge to the learner. It helps the learner learn how to learn, which is meta-learning.
+AI-For-Learning is an AI-guided learning method. It first identifies the learner's goals and current level, then plans a complete and clear learning path. Teaching starts with background, moves into principles, and ends with questions, self-explanation, and hands-on practice.
 
-It uses a Socratic questioning chain to turn the Feynman technique into a naturally occurring process: the learner must explain newly learned content in their own words, discover gaps during the explanation, and return to the material with those gaps in mind. Questions are not exams; they make understanding visible and blind spots explicit.
+## Learning How to Learn
+
+This skill does not simply feed knowledge to the learner. It helps the learner learn how to learn.
+
+It uses a Socratic questioning chain to make the Feynman technique happen naturally: the learner explains newly learned content in their own words, discovers gaps during the explanation, and returns to the material with those gaps in mind. Questions are not exams; they make understanding visible and blind spots explicit.
 
 Once the learner masters "how to learn," switching to a new field only changes the outer shell of knowledge, while the underlying learning method remains transferable.
 
-## Design Philosophy: 道 (Way) → 术 (Method) → 器 (Tool)
+## Learning Path: From Understanding to Practice
 
-A complete learning system must answer three questions: why, how, and with what.
+Learning follows three stages:
 
-道 (Way) addresses motivation and position. The learner first needs to understand why a field exists, what fundamental problem it solves, and where it sits in the broader knowledge map. Without this layer, every detail floats; the learner picks up isolated technical fragments instead of a transferable mental framework.
+1. Background and goals: understand why a field exists, what problem it solves, where it fits, and what the learner will be able to do.
+2. Principles and methods: learn the core concepts and mechanisms, compare methods and their trade-offs, and know how to choose.
+3. Practice and outcomes: run a minimal working example and complete a project or experiment that turns understanding into usable skills.
 
-术 (Method) addresses principles and choices. After understanding the "why," the learner enters the core mechanism layer, comparing essential differences among methods, their applicability boundaries, and their evolutionary logic. The goal is not memorizing details but building judgment: which path to choose in which scenario.
+Know why first, understand how next, then build it.
 
-器 (Tool) addresses implementation and practice. Knowledge must ultimately be compressed into executable action. This layer is not about grandeur but about concreteness: run a minimal viable case, touch a complete workflow with your own hands, and turn the first two layers of understanding into embodied memory. Only then is the cognitive loop of a field truly closed.
-
-道 keeps you oriented, 术 keeps you deep, 器 keeps you grounded. The three layers progress in sequence and none can be skipped. A good learning system guides the learner naturally along this path instead of stopping at a single layer.
+---
 
 ## Plan First, Then Learn: Global Perspective and a Fixed Contract
 
@@ -104,7 +112,7 @@ By seeing the full path before starting, the learner can place every knowledge p
 ## Core Teaching Flow
 
 1. Diagnosis (two modes): the default questioning-chain mode starts with the basic profile and asks one question at a time until 95%+ confidence; in document-import mode, the learner sends a resume or existing capability profile, the model reviews it first, then asks only for missing task-relevant information. Both modes must first confirm identity, major or job role, and student year (undergraduate year / master year / PhD year), unless the learner explicitly declines
-2. Plan: build a 道 → 术 → 器 path with complete technical nodes, mid-course practice, and paper reading, and explicitly ask the learner to confirm it
+2. Plan: build a path with complete technical nodes, mid-course practice, and paper reading, and explicitly ask the learner to confirm it
 3. Progress: each part follows explain → digest → check → confirm → summarize
 4. Questioning: one question at a time, 1-6 questions total, until confidence is above 95%
 5. Close-out: ask whether the learner has other questions and offer about 3 follow-up examples or questions
@@ -128,7 +136,7 @@ By seeing the full path before starting, the learner can place every knowledge p
 
 ## Usage
 
-Say "教我", "我要学", "想学", or ask to explain code, read papers, or work on assignments, and the skill activates automatically. You can also explicitly invoke it with "Use $meta-learning-method to teach me" to enter the full flow directly.
+Say "教我", "我要学", "想学", or ask to explain code, read papers, or work on assignments, and the skill activates automatically. You can also explicitly invoke it with "Use $ai-for-learning to teach me" to enter the full flow directly.
 
 During learning, select the relevant content and type `/mark` to mark it as a difficult point for later review.
 
